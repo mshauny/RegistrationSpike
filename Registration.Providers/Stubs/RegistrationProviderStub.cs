@@ -6,7 +6,7 @@ namespace Registration.Providers.Stubs
     using Contracts.Providers;
     using Contracts.Registration;
 
-    public class RegistrationProvider : IRegistrationProvider
+    public class RegistrationProviderStub : IRegistrationProvider
     {
         public Result<Registration> Register(RegistrationRequest request)
         {
